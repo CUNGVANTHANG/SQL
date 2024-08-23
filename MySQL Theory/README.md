@@ -78,6 +78,13 @@ use database_name;
 show tables;
 ```
 
+**Xem các user và host**
+
+```
+SELECT user, host from mysql.user;
+```
+
+<img src="https://github.com/user-attachments/assets/1d9430b2-ac88-42ba-9f5e-515f6b13311d" width="300px" >
 
 ## I. Tổng quan về cơ sở dữ liệu
 [:arrow_up: Mục lục](#mục-lục)
