@@ -87,6 +87,14 @@ SELECT user, host from mysql.user;
 
 <img src="https://github.com/user-attachments/assets/1d9430b2-ac88-42ba-9f5e-515f6b13311d" width="300px" >
 
+**Xem cấu trúc bảng**
+
+```
+DESCRIBE [table_name]
+```
+
+<img src="https://github.com/user-attachments/assets/5e94e42e-fde8-46fc-b4aa-22f16241af9d" width="300px" >
+
 ## Khắc phục lỗi với MySQL
 [:arrow_up: Mục lục](#mục-lục)
 
