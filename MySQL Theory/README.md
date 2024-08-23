@@ -2,6 +2,7 @@
 ## Mục lục
 
 - [Câu lệnh CMD nhanh với MySQL](#câu-lệnh-cmd-nhanh-với-mysql)
+- [Khắc phục lỗi với MySQL](#khắc-phục-lỗi-với-mysql)
 
 - [Database](#database)
   - [Mục lục](#mục-lục)
@@ -85,6 +86,34 @@ SELECT user, host from mysql.user;
 ```
 
 <img src="https://github.com/user-attachments/assets/1d9430b2-ac88-42ba-9f5e-515f6b13311d" width="300px" >
+
+## Khắc phục lỗi với MySQL
+[:arrow_up: Mục lục](#mục-lục)
+
+### 1. Unit mysql.service could not be found
+[:arrow_up: Mục lục](#mục-lục)
+
+Kiểm tra bằng câu lệnh:
+
+```
+sudo systemctl status mysql
+```
+
+Khởi động lại service:
+
+```
+sudo systemctl start mysql
+```
+
+<img src="https://github.com/user-attachments/assets/57342fa6-e6cf-448f-ae9c-0bdf651eab49" width="300px" >
+
+**Khắc phục lỗi:**
+
+```
+sudo apt-get install mariadb-server
+```
+
+<img src="https://github.com/user-attachments/assets/6fda0d0a-38df-40b1-a4d8-657b66c02e1a" width="400px" >
 
 ## I. Tổng quan về cơ sở dữ liệu
 [:arrow_up: Mục lục](#mục-lục)
